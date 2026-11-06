@@ -10,6 +10,7 @@ import {
   CheckSquare, Square, CornerDownRight, Plus, Trash2, Edit3, Save, Upload,
   Briefcase, GraduationCap, Building, Compass, Activity, Zap
 } from 'lucide-react';
+import BoardsSection from './BoardsSection';
 
 // ==========================================
 // TRANSLATIONS (EN, HI, AS)
@@ -864,7 +865,7 @@ const [demoOrderComplete, setDemoOrderComplete] = useState(false);
                 </div>
               </div>
             </section>
-
+<BoardsSection />
             {/* Featured Examination Categories */}
             <section className="py-20 px-4 max-w-7xl mx-auto">
               <div className="text-center max-w-2xl mx-auto mb-14">
